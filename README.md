@@ -1,16 +1,15 @@
 
 
-## Sobre o desafio
+## Challenge
+In this challenge, I've create an application to go aheader  RocketSeat's BootCamp!
 
-Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no Node.js!
+It's an application to store repositories in my portfolio, I can create, listing, update and delete repositories, and still allow that repositories to receive "likes".
 
-Essa será uma aplicação para armazenar repositórios do seu portfólio, que irá permitir a criação, listagem, atualização e remoção dos repositórios, e além disso permitir que os repositórios possam receber "likes".
+### Application
 
+To run this application I've needed to complete the code to get the gols.
 
-
-### Rotas da aplicação
-
-Agora que você já está com o template clonado, e pronto para continuar, você deve abrir o arquivo app.js, e completar onde não possui código com o código para atingir os objetivos de cada rota.
+Instructor's orientation: (Language - Portuguese/BR)
 
 - **`POST /repositories`**: A rota deve receber `title`, `url` e `techs` dentro do corpo da requisição, sendo a URL o link para o github desse repositório. Ao cadastrar um novo projeto, ele deve ser armazenado dentro de um objeto no seguinte formato: `{ id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }`; Certifique-se que o ID seja um UUID, e de sempre iniciar os likes como 0.
 
